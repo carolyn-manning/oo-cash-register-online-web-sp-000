@@ -16,5 +16,7 @@ class CashRegister
 
   def apply_discount
     dicount_integer = (100 - @discount)/100
+    total * dicount_integer
+  end
 
 end
