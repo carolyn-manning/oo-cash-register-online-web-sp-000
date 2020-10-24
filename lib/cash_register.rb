@@ -27,7 +27,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    if @cart.size == 0
+    if @cart.size == 1
       0.0
     end
   end
